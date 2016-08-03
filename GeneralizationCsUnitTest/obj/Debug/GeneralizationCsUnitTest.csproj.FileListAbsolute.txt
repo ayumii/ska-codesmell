@@ -18,3 +18,14 @@ D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\bin\Debug\GeneralizationCs.
 D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\bin\Debug\nunit.framework.xml
 D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.dll
 D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.pdb
+C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCsUnitTest\bin\Debug\GeneralizationCsUnitTest.dll
+C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCsUnitTest\bin\Debug\GeneralizationCsUnitTest.pdb
+C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCsUnitTest\bin\Debug\GeneralizationCs.exe
+C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCsUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCsUnitTest\bin\Debug\nunit.framework.dll
+C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCsUnitTest\bin\Debug\GeneralizationCs.pdb
+C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCsUnitTest\bin\Debug\nunit.framework.xml
+C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCsUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.dll
+C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.pdb

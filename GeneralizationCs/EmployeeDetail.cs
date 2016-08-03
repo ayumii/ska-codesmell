@@ -1,7 +1,4 @@
-﻿
-using System.Collections.Specialized;
-
-namespace GeneralizationCs
+﻿namespace GeneralizationCs
 {
     public class EmployeeDetail
     {

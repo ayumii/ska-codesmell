@@ -1,6 +1,4 @@
-using System;
 using System.IO;
-using System.Runtime.InteropServices;
 
 namespace GeneralizationCs
 {
@@ -17,8 +15,6 @@ namespace GeneralizationCs
 		private string city;
 		private string state;
 		private string yearlySalary;
-
-       
 		public AddEmployeeCmd(EmployeeDetail employeeDetail)
 		{
 			this.name = employeeDetail.Name;
@@ -27,20 +23,21 @@ namespace GeneralizationCs
 			this.state = employeeDetail.State;
 			this.yearlySalary = employeeDetail.YearlySalary + "";
 		}
-
-		private int getSize() {
-			return header.Length +  SIZE_LENGTH +  CMD_BYTE_LENGTH + footer.Length +
-				name.Length + 1 +
-				address.Length + 1 +
-				city.Length + 1 +
-				state.Length + 1 +
-				yearlySalary.Length + 1;
-		}
-
-
-		public void Write(TextWriter writer) {
+        private int Size
+        {
+            get
+            {
+                return header.Length + SIZE_LENGTH + CMD_BYTE_LENGTH + footer.Length +
+                                name.Length + 1 +
+                                address.Length + 1 +
+                                city.Length + 1 +
+                                state.Length + 1 +
+                                yearlySalary.Length + 1;
+            }
+        }
+        public void Write(TextWriter writer) {
 			writer.Write(header);
-			writer.Write(getSize());
+			writer.Write(Size);
 			writer.Write(commandChar);
 			writer.Write(name);
 			writer.Write((char)0x00);

@@ -1,0 +1,10 @@
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\bin\Debug\GeneralizationCsUnitTest.dll
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\bin\Debug\GeneralizationCsUnitTest.pdb
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\bin\Debug\GeneralizationCs.exe
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\bin\Debug\nunit.framework.dll
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\bin\Debug\GeneralizationCs.pdb
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\bin\Debug\nunit.framework.xml
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.csprojResolveAssemblyReference.cache
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.dll
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.pdb

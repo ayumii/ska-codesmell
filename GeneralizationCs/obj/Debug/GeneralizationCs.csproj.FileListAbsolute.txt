@@ -1,0 +1,7 @@
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCs\bin\Debug\GeneralizationCs.exe.config
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCs\bin\Debug\GeneralizationCs.exe
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCs\bin\Debug\GeneralizationCs.pdb
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCs\obj\Debug\GeneralizationCs.Properties.Resources.resources
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCs\obj\Debug\GeneralizationCs.csproj.GenerateResource.Cache
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCs\obj\Debug\GeneralizationCs.exe
+D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCs\obj\Debug\GeneralizationCs.pdb

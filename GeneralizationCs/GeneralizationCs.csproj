@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="AddEmployeeCmd.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="EmployeeDetail.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

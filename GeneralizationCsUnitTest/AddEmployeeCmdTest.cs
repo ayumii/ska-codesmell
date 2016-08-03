@@ -18,7 +18,8 @@ namespace GeneralizationCsUnitTest
                                     '7', '2', '0', '0', '0', (char)0x00,
                                     (char)0xbe, (char)0xef };
 
-			AddEmployeeCmd cmd = new AddEmployeeCmd("Fred Brooks", "123 My House", "Springfield", "IL", 72000);
+            EmployeeDetail employeeDetail = new EmployeeDetail("Fred Brooks", "123 My House", "Springfield", "IL", 72000);
+			AddEmployeeCmd cmd = new AddEmployeeCmd(employeeDetail);
 			StringWriter writer = new StringWriter();
 			cmd.Write(writer);
 

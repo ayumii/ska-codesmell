@@ -5,3 +5,11 @@ D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCs\obj\Debug\Generaliz
 D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCs\obj\Debug\GeneralizationCs.csproj.GenerateResource.Cache
 D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCs\obj\Debug\GeneralizationCs.exe
 D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCs\obj\Debug\GeneralizationCs.pdb
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\obj\Debug\GeneralizationCs.csprojResolveAssemblyReference.cache
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\obj\Debug\GeneralizationCs.Properties.Resources.resources
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\obj\Debug\GeneralizationCs.csproj.GenerateResource.Cache
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\bin\Debug\GeneralizationCs.exe.config
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\bin\Debug\GeneralizationCs.exe
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\bin\Debug\GeneralizationCs.pdb
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\obj\Debug\GeneralizationCs.exe
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\obj\Debug\GeneralizationCs.pdb

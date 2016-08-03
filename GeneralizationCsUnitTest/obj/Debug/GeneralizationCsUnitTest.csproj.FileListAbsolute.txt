@@ -8,3 +8,13 @@ D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\bin\Debug\n
 D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.csprojResolveAssemblyReference.cache
 D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.dll
 D:\WorkSpace\API\CodeSmell\GeneralizationCs\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.pdb
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.csprojResolveAssemblyReference.cache
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\bin\Debug\GeneralizationCsUnitTest.dll
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\bin\Debug\GeneralizationCsUnitTest.pdb
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\bin\Debug\GeneralizationCs.exe
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\bin\Debug\nunit.framework.dll
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\bin\Debug\GeneralizationCs.pdb
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\bin\Debug\nunit.framework.xml
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.dll
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCsUnitTest\obj\Debug\GeneralizationCsUnitTest.pdb

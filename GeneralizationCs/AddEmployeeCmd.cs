@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Runtime.InteropServices;
 
 namespace GeneralizationCs
 {
@@ -17,13 +18,14 @@ namespace GeneralizationCs
 		private string state;
 		private string yearlySalary;
 
-		public AddEmployeeCmd(string name, string address, string city, string state, int yearlySalary)
+       
+		public AddEmployeeCmd(EmployeeDetail employeeDetail)
 		{
-			this.name = name;
-			this.address = address;
-			this.city = city;
-			this.state = state;
-			this.yearlySalary = yearlySalary + "";
+			this.name = employeeDetail.Name;
+			this.address = employeeDetail.Address;
+			this.city = employeeDetail.City;
+			this.state = employeeDetail.State;
+			this.yearlySalary = employeeDetail.YearlySalary + "";
 		}
 
 		private int getSize() {

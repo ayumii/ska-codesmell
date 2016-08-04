@@ -18,16 +18,16 @@ namespace GeneralizationCs
         }
         public EmployeeDetail(string name, string address, string city, string state, string yearlysalary)
         {
-            this.Name = name;
-            this.Address = address;
-            this.City = city;
-            this.State = state;
-            this.YearlySalary = yearlysalary;
-            this.EmployeeDetailString = this.Name + (char) Constants.HEX_0x00 +
-                                        this.Address + (char)Constants.HEX_0x00 +
-                                        this.City + (char)Constants.HEX_0x00 +
-                                        this.State + (char)Constants.HEX_0x00 +
-                                        this.YearlySalary + (char)Constants.HEX_0x00;
+            Name = name;
+            Address = address;
+            City = city;
+            State = state;
+            YearlySalary = yearlysalary;
+            EmployeeDetailString = Name + (char)Constants.Hex0X00 +
+                                   Address + (char)Constants.Hex0X00 +
+                                   City + (char)Constants.Hex0X00 +
+                                   State + (char)Constants.Hex0X00 +
+                                   YearlySalary + (char)Constants.Hex0X00;
         }
 
     }

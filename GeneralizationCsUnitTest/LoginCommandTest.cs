@@ -29,12 +29,12 @@ namespace GeneralizationCsUnitTest
         [TestCase(19)]
         [TestCase(20)]
         public void SentCorrectly(int index) {                   
-            char[] knownGood = new char[] {(char)Constants.HEX_0xde, (char)Constants.HEX_0xad,
-                                    (char)Constants.DEC_50,(char)Constants.DEC_48,
-                                    (char)Constants.HEX_0x01,
-                                    'b', 'a', 'b', (char)Constants.HEX_0x00,
-                                    'c', 'a', 'r', 'd', 'i', 'n', 'a', 'l', 's', (char)Constants.HEX_0x00,
-                                    (char)Constants.HEX_0xbe, (char)Constants.HEX_0xef};
+            char[] knownGood = {(char)Constants.Hex0Xde, (char)Constants.Hex0Xad,
+                                    (char)Constants.Dec50,(char)Constants.Dec48,
+                                    (char)Constants.Hex0X01,
+                                    'b', 'a', 'b', (char)Constants.Hex0X00,
+                                    'c', 'a', 'r', 'd', 'i', 'n', 'a', 'l', 's', (char)Constants.Hex0X00,
+                                    (char)Constants.Hex0Xbe, (char)Constants.Hex0Xef};
 
             LoginDetail loginDetail = new LoginDetail("bab", "cardinals");
             LoginCommand cmd = new LoginCommand(loginDetail);

@@ -13,10 +13,10 @@
 
         public LoginDetail(string name, string password)
         {
-            this.Name = name;
-            this.Password = password;
-            this.LoginDetailString = this.Name + (char)Constants.HEX_0x00 +
-                                        this.Password + (char)Constants.HEX_0x00;
+            Name = name;
+            Password = password;
+            LoginDetailString = Name + (char)Constants.Hex0X00 +
+                                Password + (char)Constants.Hex0X00;
         }
 
     }

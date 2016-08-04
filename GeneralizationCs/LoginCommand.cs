@@ -5,9 +5,9 @@ namespace GeneralizationCs
 {
 	public class LoginCommand
 	{
-        private static char[] _Header = {(char)Constants.HEX_0xde, (char)Constants.HEX_0xad};
-        private static char[] _CommandHEX = {(char)Constants.HEX_0x01};
-		private static char[] _Footer = {(char)Constants.HEX_0xbe, (char)Constants.HEX_0xef};
+        private static char[] _Header = {(char)Constants.Hex0Xde, (char)Constants.Hex0Xad};
+        private static char[] _CommandHEX = {(char)Constants.Hex0X01};
+		private static char[] _Footer = {(char)Constants.Hex0Xbe, (char)Constants.Hex0Xef};
 
         private LoginDetail _LoginDetail = new LoginDetail();
         public LoginCommand(LoginDetail loginDetail)
@@ -18,7 +18,7 @@ namespace GeneralizationCs
         {
             get
             {
-                return _Header.Length + (int)Constants.SIZE_LENGTH + (int)Constants.CMD_BYTE_LENGTH + 
+                return _Header.Length + (int)Constants.SizeLength + (int)Constants.CmdByteLength + 
                     _Footer.Length +_LoginDetail.LoginDetailString.Length;
             }
         }

@@ -16,13 +16,13 @@ namespace GeneralizationCs
         {
             
         }
-        public EmployeeDetail(string name, string address, string city, string state, string yearlysalary)
+        public EmployeeDetail(string name, string address, string city, string state, string yearlySalary)
         {
             Name = name;
             Address = address;
             City = city;
             State = state;
-            YearlySalary = yearlysalary;
+            YearlySalary = yearlySalary;
             EmployeeDetailString = Name + (char)Constants.Hex0X00 +
                                    Address + (char)Constants.Hex0X00 +
                                    City + (char)Constants.Hex0X00 +

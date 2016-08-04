@@ -6,7 +6,7 @@ namespace GeneralizationCs
 	public class LoginCommand
 	{
         private static char[] _Header = {(char)Constants.Hex0Xde, (char)Constants.Hex0Xad};
-        private static char[] _CommandHEX = {(char)Constants.Hex0X01};
+        private static char[] _CommandHex = {(char)Constants.Hex0X01};
 		private static char[] _Footer = {(char)Constants.Hex0Xbe, (char)Constants.Hex0Xef};
 
         private LoginDetail _LoginDetail = new LoginDetail();
@@ -26,7 +26,7 @@ namespace GeneralizationCs
         public void Write(TextWriter writer) {
 			writer.Write(_Header);
 			writer.Write(Size);
-			writer.Write(_CommandHEX);
+			writer.Write(_CommandHex);
             writer.Write(_LoginDetail.LoginDetailString);
 			writer.Write(_Footer);
 		}

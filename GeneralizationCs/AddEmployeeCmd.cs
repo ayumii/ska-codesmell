@@ -4,30 +4,23 @@ using System.IO;
 namespace GeneralizationCs
 {
 
-	public class AddEmployeeCmd
-	{
-        private EmployeeDetail _employeeDetail = new EmployeeDetail();
-       
-		public AddEmployeeCmd(EmployeeDetail employeeDetail)
-		{
-		    _employeeDetail = employeeDetail;
-		}
+    public class AddEmployeeCmd : BaseCommand
+    {
+        private readonly EmployeeDetail _employeeDetail;
 
-        private int Size
+        public AddEmployeeCmd(EmployeeDetail employeeDetail)
         {
-            get
-            {
-                return Constants.Header.Length + Constants.SizeLength + Constants.CmdByteLength + 
-                    Constants.Footer.Length +_employeeDetail.EmployeeDetailString.Length;
-            }
+            _employeeDetail = employeeDetail;
         }
 
-        public void Write(TextWriter writer) {
-			writer.Write(Constants.Header);
-			writer.Write(Size);
-			writer.Write(Constants.CommandChar0X02);
-            writer.Write(_employeeDetail.EmployeeDetailString);
-			writer.Write(Constants.Footer); 
-		}
-	}
+        protected override string RetrieveDetailString()
+        {
+            return _employeeDetail.EmployeeDetailString;
+        }
+        protected override char RetrieveCommandChar()
+        {
+            return Constants.CommandChar0X02;
+        }
+
+    }
 }

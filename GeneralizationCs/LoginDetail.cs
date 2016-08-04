@@ -8,6 +8,7 @@
 
         public LoginDetail()
         {
+
         }
 
         public LoginDetail(string name, string password)

@@ -3,28 +3,22 @@ using System.IO;
 
 namespace GeneralizationCs
 {
-	public class LoginCommand
-	{
-        private LoginDetail _loginDetail = new LoginDetail();
+    public class LoginCommand : BaseCommand
+    {
+        private readonly LoginDetail _loginDetail;
         public LoginCommand(LoginDetail loginDetail)
         {
             _loginDetail = loginDetail;
         }
-        private int Size
+
+        protected override string RetrieveDetailString()
         {
-            get
-            {
-                return Constants.Header.Length + Constants.SizeLength + Constants.CmdByteLength + 
-                    Constants.Footer.Length +_loginDetail.LoginDetailString.Length;
-            }
+            return _loginDetail.LoginDetailString;
         }
 
-        public void Write(TextWriter writer) {
-			writer.Write(Constants.Header);
-			writer.Write(Size);
-			writer.Write(Constants.CommandChar0X01);
-            writer.Write(_loginDetail.LoginDetailString);
-			writer.Write(Constants.Footer);
-		}
-	}
+        protected override char RetrieveCommandChar()
+        {
+            return Constants.CommandChar0X01;
+        }
+    }
 }

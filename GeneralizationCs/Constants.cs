@@ -20,8 +20,8 @@ namespace GeneralizationCs
         public static char Dec53 = (char) 53;
 
         public static char[] Header = {Hex0Xde, Hex0Xad};
-        public static char[] CommandChar0X01 = {Hex0X01};
-        public static char[] CommandChar0X02 = {Hex0X02};
+        public static char CommandChar0X01 = Hex0X01;
+        public static char CommandChar0X02 = Hex0X02;
         public static char[] Footer = {Hex0Xbe, Hex0Xef};
     }
     

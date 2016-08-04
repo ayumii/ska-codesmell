@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddEmployeeCmd.cs" />
+    <Compile Include="BaseCommand.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="EmployeeDetail.cs" />

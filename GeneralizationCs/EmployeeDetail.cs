@@ -9,12 +9,10 @@ namespace GeneralizationCs
         public string City { get; set; }
         public string State { get; set; }
         public string YearlySalary { get; set; }
-
         public string EmployeeDetailString { get; set; }
-
         public EmployeeDetail()
         {
-            
+
         }
         public EmployeeDetail(string name, string address, string city, string state, string yearlySalary)
         {

@@ -23,11 +23,11 @@ namespace GeneralizationCs
             this.City = city;
             this.State = state;
             this.YearlySalary = yearlysalary;
-            this.EmployeeDetailString = this.Name + (char) 0x00 +
-                                        this.Address + (char) 0x00 +
-                                        this.City + (char) 0x00 +
-                                        this.State + (char) 0x00 +
-                                        this.YearlySalary + (char) 0x00;
+            this.EmployeeDetailString = this.Name + (char) Constants.HEX_0x00 +
+                                        this.Address + (char)Constants.HEX_0x00 +
+                                        this.City + (char)Constants.HEX_0x00 +
+                                        this.State + (char)Constants.HEX_0x00 +
+                                        this.YearlySalary + (char)Constants.HEX_0x00;
         }
 
     }

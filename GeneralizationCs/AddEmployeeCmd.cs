@@ -6,9 +6,9 @@ namespace GeneralizationCs
 
 	public class AddEmployeeCmd
 	{
-        private static char[] _Header = {(char)Constants.CHAR_0xde, (char)Constants.CHAR_0xad};
-        private static char[] _CommandChar = { (char)Constants.CHAR_0x02};
-        private static char[] _Footer = {(char)Constants.CHAR_0xbe, (char)Constants.CHAR_0xef};
+        private static char[] _Header = {(char)Constants.HEX_0xde, (char)Constants.HEX_0xad};
+        private static char[] _CommandHEX = { (char)Constants.HEX_0x02};
+        private static char[] _Footer = {(char)Constants.HEX_0xbe, (char)Constants.HEX_0xef};
 
         private EmployeeDetail _EmployeeDetail = new EmployeeDetail();
        
@@ -28,7 +28,7 @@ namespace GeneralizationCs
         public void Write(TextWriter writer) {
 			writer.Write(_Header);
 			writer.Write(Size);
-			writer.Write(_CommandChar);
+			writer.Write(_CommandHEX);
             writer.Write(_EmployeeDetail.EmployeeDetailString);
 			writer.Write(_Footer); 
 		}

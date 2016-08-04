@@ -15,8 +15,8 @@
         {
             this.Name = name;
             this.Password = password;
-            this.LoginDetailString = this.Name + (char)0x00 +
-                                        this.Password + (char)0x00;
+            this.LoginDetailString = this.Name + (char)Constants.HEX_0x00 +
+                                        this.Password + (char)Constants.HEX_0x00;
         }
 
     }

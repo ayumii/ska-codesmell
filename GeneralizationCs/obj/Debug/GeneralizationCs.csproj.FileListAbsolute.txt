@@ -24,3 +24,4 @@ D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\bin\Debug\nunit.framework.dll
 D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\bin\Debug\nunit.framework.xml
 D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\obj\Debug\GeneralizationCs.exe
 D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\obj\Debug\GeneralizationCs.pdb
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\obj\Debug\GeneralizationCs.csprojResolveAssemblyReference.cache

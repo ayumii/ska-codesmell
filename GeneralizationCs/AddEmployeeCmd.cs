@@ -25,6 +25,7 @@ namespace GeneralizationCs
                     _Footer.Length +_EmployeeDetail.EmployeeDetailString.Length;
             }
         }
+
         public void Write(TextWriter writer) {
 			writer.Write(_Header);
 			writer.Write(Size);

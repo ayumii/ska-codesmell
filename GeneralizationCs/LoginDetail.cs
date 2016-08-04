@@ -8,15 +8,14 @@
 
         public LoginDetail()
         {
-
         }
 
         public LoginDetail(string name, string password)
         {
             Name = name;
             Password = password;
-            LoginDetailString = Name + (char)Constants.Hex0X00 +
-                                Password + (char)Constants.Hex0X00;
+            LoginDetailString = Name + Constants.Hex0X00 +
+                                Password + Constants.Hex0X00;
         }
 
     }

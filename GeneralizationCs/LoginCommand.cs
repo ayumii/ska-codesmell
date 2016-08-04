@@ -5,30 +5,26 @@ namespace GeneralizationCs
 {
 	public class LoginCommand
 	{
-        private static char[] _Header = {(char)Constants.Hex0Xde, (char)Constants.Hex0Xad};
-        private static char[] _CommandHex = {(char)Constants.Hex0X01};
-		private static char[] _Footer = {(char)Constants.Hex0Xbe, (char)Constants.Hex0Xef};
-
-        private LoginDetail _LoginDetail = new LoginDetail();
+        private LoginDetail _loginDetail = new LoginDetail();
         public LoginCommand(LoginDetail loginDetail)
         {
-            _LoginDetail = loginDetail;
+            _loginDetail = loginDetail;
         }
         private int Size
         {
             get
             {
-                return _Header.Length + (int)Constants.SizeLength + (int)Constants.CmdByteLength + 
-                    _Footer.Length +_LoginDetail.LoginDetailString.Length;
+                return Constants.Header.Length + Constants.SizeLength + Constants.CmdByteLength + 
+                    Constants.Footer.Length +_loginDetail.LoginDetailString.Length;
             }
         }
 
         public void Write(TextWriter writer) {
-			writer.Write(_Header);
+			writer.Write(Constants.Header);
 			writer.Write(Size);
-			writer.Write(_CommandHex);
-            writer.Write(_LoginDetail.LoginDetailString);
-			writer.Write(_Footer);
+			writer.Write(Constants.CommandChar0X01);
+            writer.Write(_loginDetail.LoginDetailString);
+			writer.Write(Constants.Footer);
 		}
 	}
 }

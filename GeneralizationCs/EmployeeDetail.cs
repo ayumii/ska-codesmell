@@ -23,11 +23,11 @@ namespace GeneralizationCs
             City = city;
             State = state;
             YearlySalary = yearlySalary;
-            EmployeeDetailString = Name + (char)Constants.Hex0X00 +
-                                   Address + (char)Constants.Hex0X00 +
-                                   City + (char)Constants.Hex0X00 +
-                                   State + (char)Constants.Hex0X00 +
-                                   YearlySalary + (char)Constants.Hex0X00;
+            EmployeeDetailString = Name + Constants.Hex0X00 +
+                                   Address + Constants.Hex0X00 +
+                                   City + Constants.Hex0X00 +
+                                   State + Constants.Hex0X00 +
+                                   YearlySalary + Constants.Hex0X00;
         }
 
     }

@@ -23,3 +23,5 @@ C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCs\bin\Debug\nunit.framewor
 C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCs\bin\Debug\nunit.framework.xml
 C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCs\obj\Debug\GeneralizationCs.exe
 C:\Users\hp\Documents\GitHub\CodeSmell\GeneralizationCs\obj\Debug\GeneralizationCs.pdb
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\bin\Debug\nunit.framework.dll
+D:\WorkSpace\Exam\CodeSmell\GeneralizationCs\bin\Debug\nunit.framework.xml

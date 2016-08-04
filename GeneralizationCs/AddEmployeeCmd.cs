@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 
 namespace GeneralizationCs
@@ -5,13 +6,11 @@ namespace GeneralizationCs
 
 	public class AddEmployeeCmd
 	{
-		private static char[] _Header = {(char)0xde, (char)0xad};
-		private static char[] _CommandChar = {(char)0x02};
-		private static char[] _Footer = {(char)0xbe, (char)0xef};
-		private const int SIZE_LENGTH = 1;
-		private const int CMD_BYTE_LENGTH = 1;
+        private static char[] _Header = {(char)Constants.CHAR_0xde, (char)Constants.CHAR_0xad};
+        private static char[] _CommandChar = { (char)Constants.CHAR_0x02};
+        private static char[] _Footer = {(char)Constants.CHAR_0xbe, (char)Constants.CHAR_0xef};
 
-	    private EmployeeDetail _EmployeeDetail = new EmployeeDetail();
+        private EmployeeDetail _EmployeeDetail = new EmployeeDetail();
        
 		public AddEmployeeCmd(EmployeeDetail employeeDetail)
 		{
@@ -22,8 +21,8 @@ namespace GeneralizationCs
         {
             get
             {
-                return _Header.Length + SIZE_LENGTH + CMD_BYTE_LENGTH + _Footer.Length +
-                       _EmployeeDetail.EmployeeDetailString.Length;
+                return _Header.Length + (int)Constants.SIZE_LENGTH + (int)Constants.CMD_BYTE_LENGTH + 
+                    _Footer.Length +_EmployeeDetail.EmployeeDetailString.Length;
             }
         }
         public void Write(TextWriter writer) {
